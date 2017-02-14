@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && node server.js",
+    "watch": "webpack --watch",
     "test": "jest",
-    "test-watch": "export NODE_ENV=test && webpack && ./node_modules/nodemon/bin/nodemon --exec npm test"
+    "test-watch": "export NODE_ENV=test && nodemon --exec npm test && webpack"
   },
   "author": "",
   "license": "ISC",
