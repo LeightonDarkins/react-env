@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "webpack --watch",
-    "test": "jest",
-    "test-watch": "export NODE_ENV=test && nodemon --exec npm test && webpack"
+    "test": "jest --watch"
   },
   "author": "",
   "license": "ISC",
